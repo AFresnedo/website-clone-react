@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Landing user='userId' />
+        <Landing user='userId' sections={[]}/>
       </div>
     );
   }
